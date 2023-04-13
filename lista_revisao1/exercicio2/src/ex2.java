@@ -4,7 +4,7 @@ public class ex2 {
     public static void main(String[] args) throws Exception {
         Scanner sc = new Scanner(System.in);
 
-        int tamanho = 5, positivos = 0, negativos = 0;
+        int tamanho = 200, positivos = 0, negativos = 0;
         double media = 0, porcentNegativos=0, porcentPositivos= 0;
         double lista[] = new double[tamanho];
 
