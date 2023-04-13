@@ -4,7 +4,7 @@ public class ex2 {
     public static void main(String[] args) throws Exception {
         Scanner sc = new Scanner(System.in);
 
-        int tamanho = 200, positivos = 0, negativos = 0;
+        int tamanho = 5, positivos = 0, negativos = 0;
         double media = 0, porcentNegativos=0, porcentPositivos= 0;
         double lista[] = new double[tamanho];
 
@@ -21,8 +21,8 @@ public class ex2 {
         }
         media = media / tamanho;
 
-        porcentPositivos = (positivos/tamanho)*100;
-        porcentNegativos = (negativos/tamanho)*100;
+        porcentPositivos = (positivos/(double)tamanho)*100;
+        porcentNegativos = (negativos/(double)tamanho)*100;
 
         System.out.println("Média: " + media + "\n");
         System.out.println("Quantidade de número positivos: " + positivos + "\n");
