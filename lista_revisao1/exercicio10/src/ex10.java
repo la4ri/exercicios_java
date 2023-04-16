@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class ex10 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -12,14 +14,14 @@ public class ex10 {
 
         int inscricao = 0;
         double[] pontosEtapa = new double[3];
-        double pontosTotal = 0; // Inicializando a variável pontosTotal com 0
+        double pontosTotal = 0;
 
         while (inscricao != 9999) {
             System.out.print("Digite o número de inscrição da equipe (ou 9999 para encerrar): ");
             inscricao = sc.nextInt();
 
             if (inscricao != 9999) {
-                pontosTotal = 0; // Zerando a variável pontosTotal para cada equipe
+                pontosTotal = 0;
 
                 for (int i = 0; i < pontosEtapa.length; i++) {
                     System.out.print("Digite o tempo gasto pela equipe na etapa " + (i + 1) + ": ");

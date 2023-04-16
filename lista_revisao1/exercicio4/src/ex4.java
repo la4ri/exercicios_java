@@ -1,13 +1,15 @@
+import java.util.Scanner;
+
 public class ex4 {
     public static void main(String[] args) throws Exception {
-        
-        Scanner input = new Scanner(System.in);
+
+        Scanner sc = new Scanner(System.in);
         int qntTermo;
         Double soma = 100.0, dividendo = 997.0, divisor = 2.0;
 
 
         System.out.print("Escreva a quantidade de termos a ser calculado: ");
-        qntTermo = input.nextInt();
+        qntTermo = sc.nextInt();
 
         for (int i = 1; i < qntTermo; i++) {
 
@@ -24,7 +26,7 @@ public class ex4 {
 
         System.out.print("Soma: " + soma);
 
-        input.close();
+        sc.close();
 
     }
 }
