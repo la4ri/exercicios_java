@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class ex3 {
     public static void main(String[] args) throws Exception {
-        
+
         Scanner input = new Scanner(System.in);
 
         int tamanho = 4;
@@ -23,6 +23,7 @@ public class ex3 {
         System.out.println(getMinAlturaF(altura, sexo));
         System.out.println(getMaxAlturaM(altura, sexo));
 
+        input.close();
     }
 
     static Double getMinAltura(Double[] lista) {
