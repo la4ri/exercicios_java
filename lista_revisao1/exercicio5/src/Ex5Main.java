@@ -1,4 +1,4 @@
-public class ex5 {
+public class Ex5Main {
     public static void main(String[] args) throws Exception {
 
         Double A = 90000.0, B = 200000.0;
